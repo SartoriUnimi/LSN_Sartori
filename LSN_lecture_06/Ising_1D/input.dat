@@ -1,0 +1,17 @@
+2.0
+50
+1.0
+0.02
+0
+20
+100000
+20
+
+  ReadInput >> temp;
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h;
+  ReadInput >> metro; // if=1 Metropolis else Gibbs
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> temps; // sceglie quante temperature esplorare nel range 0.5-2.0
