@@ -1,4 +1,4 @@
-#Esercitazione 4
+# Esercitazione 4
 
 Ricordarsi di impostare i dati adeguati nel file ```input.in``` a partire da quelli contenuti in ```input.solid```, ```input.liquid```, ```input.gas``` a seconda se stia facendo l'equilibrazione o la simulazione vera e propria.
 
