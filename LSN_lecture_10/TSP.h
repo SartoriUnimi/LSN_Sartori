@@ -78,7 +78,7 @@ class Population{
         void crossing_over(Path);
 
     private:
-        int Npop = 6000; //1000 ottimizza circle, 1800 ottimizza square
+        int Npop = 6000; 
 };
 
 template <typename T> void Swap(T &a, T &b);
