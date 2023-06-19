@@ -69,7 +69,7 @@ int main(int argc, char* argv[]){
         cout << "Rank " << rank << ": SA block number " << iSA << endl;
         cout << "Acceptance rate " << (double)(SAaccepted)/(double)(SAattempted) << endl << endl;
         cout << "----------------------------" << endl << endl;
-        best[rank] << iSA << setw(12) << pop[rank].Chr[0].L2(cities) << "\t" << pop[rank].Chr[0].beta << endl;
+        best[rank] << iSA << setw(12) << pop[rank].Chr[0].L2(cities)  << endl;
         if(rank == 0) //la migliore stima è alla temperatura più bassa, nodo 0, individuo 0
         {
             av << iSA << setw(12) << pop[rank].BestAv(cities)<< endl;
